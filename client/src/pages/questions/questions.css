@@ -1,0 +1,131 @@
+/* .Part-1 {
+  margin-bottom: 100px;
+} */
+.question-main-head h2 {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 50px 30px;
+  color: yellowgreen;
+}
+.question-main-head h2{
+  position: relative;
+  width:max-content;
+}
+.question-main-head h2::after {
+  content:"";
+  position:absolute;
+  height: 6px;
+  background:yellowgreen;
+  width:100%;
+  left:-30px;
+  bottom:0;
+  transform:scaleX(0);
+  transition: transform 500ms ease;
+}
+
+.question-main-head h2:hover::after{
+  transform:scaleX(1);
+}
+
+.weekly-question-text{
+  font-family: sans-serif;
+}
+
+.question-head {
+  border: 2px solid #ffff;
+  box-shadow: 3px 3px 4px 3px #9d9d9d;
+  margin:0px 20px 35px 20px;
+}
+
+.question-head h3 {
+  font-size: 20px;
+  margin:10px 20px;
+  color: #6d8299;
+}
+/* .question-box{
+
+} */
+.question-box h1 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color:black;
+}
+.question-box p {
+  font-size: 18px;
+  width: 88%;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  color:black;
+}
+.question-sol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.question-sol a {
+  border: 2px solid #9d9d9d;
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#link1 {
+  color: #6d8299;
+}
+#link2 {
+  color: #6d8299;
+}
+.company-box-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.company-box-p1 {
+  display: flex;
+  flex-direction: row;
+}
+.company-box-p2 {
+  display: flex;
+  flex-direction: row;
+}
+.faang {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+#comp1 img {
+  height: 93px;
+}
+#comp2 img {
+  height: 100px;
+  width: 100px;
+}
+#comp3 img {
+  height: 100px;
+  width: 191px;
+}
+#comp4 img {
+  height: 120px;
+  width: 124px;
+}
+#comp5 img {
+  height: 122px;
+  width: 122px;
+}
+#comp6 img {
+  height: 160px;
+  width: 360px;
+}
+#comp7 img {
+  height: 93px;
+  margin-top: 19px;
+}
+#comp8 img {
+  height: 100px;
+  width: 180px;
+  margin-top: 19px;
+}

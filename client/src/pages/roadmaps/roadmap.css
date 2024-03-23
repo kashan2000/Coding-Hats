@@ -1,0 +1,155 @@
+hr {
+  width: 70%;
+  margin: auto;
+}
+.roadmap-head h2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+.roadmap-head p {
+  text-align: center;
+  padding-bottom: 14px;
+  color: #787a91;
+}
+.roadmap-main-head h2 {
+  border: 2px solid #51087e;
+  width: 185px;
+  color: #ffff;
+  background-color: #51087e;
+  box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+  padding: 10px;
+  text-align: center;
+}
+.roadmap-main {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 35px;
+}
+.tech-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.techno {
+  height: 200px;
+  width: 400px;
+  margin: 30px;
+}
+
+.tech-box-1,
+.tech-box-2,
+.tech-box-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#tech-box-1 {
+  background: url(https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)
+    no-repeat center/cover;
+}
+#tech-box-1 h3 {
+  color: #125d98;
+}
+#tech-box-2 {
+  background: url(https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80)
+    no-repeat center/cover;
+}
+#tech-box-2 h3 {
+  color: #ffff;
+}
+#tech-box-3 {
+  background: url(https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+    no-repeat center/cover;
+}
+#tech-box-3 h3 {
+  color: #ffff;
+}
+#tech-box-4 {
+  background: url(https://www.30dayscoding.com/static/media/tutorial-07.4eaa3c9e.jpg)
+    no-repeat center/cover;
+}
+#tech-box-4 h3 {
+  color: #ffff;
+}
+#tech-box-5 {
+  background: url(https://www.30dayscoding.com/static/media/tutorial-05.de48f52d.jpg)
+    no-repeat center/cover;
+}
+#tech-box-5 h3,
+p {
+  color: #ffff;
+}
+.Intern-box {
+  background: url(https://images.unsplash.com/photo-1576595580361-90a855b84b20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80)
+    no-repeat center/cover;
+  height: 200px;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: black;
+}
+.Intern {
+  margin-bottom: 60px;
+}
+.Intern-main-head h2 {
+  width: 200px;
+  background-color: #ff7600;
+  color: white;
+  border-right: 2px solid #ff7600;
+  border-bottom: 2px solid #ff7600;
+  box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+  padding: 10px;
+  text-align: center;
+}
+.frame-box {
+  background: url(https://ionicframework.com/blog/wp-content/uploads/2019/02/react-beta.png)
+    no-repeat center/cover;
+  height: 200px;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.frame-box h3 {
+  color: #fff;
+  font-size: 25px;
+}
+.frame {
+  margin-bottom: 60px;
+}
+.frame-main-head h2 {
+  width: 200px;
+  background-color: #1c6dd0;
+  color: white;
+  border-right: 2px solid #1c6dd0;
+  border-bottom: 2px solid #1c6dd0;
+  box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+  padding: 10px;
+  text-align: center;
+}
+.Graphs-main-head h2 {
+  width: 185px;
+  background-color: #125d98;
+  color: white;
+  border-right: 2px solid #125d98;
+  border-bottom: 2px solid #125d98;
+  box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+  padding: 10px;
+  text-align: center;
+}
+.Graphs-para p {
+  padding-top: 15px;
+  font-size: 14px;
+  color: #787a91;
+}
+
+.graphBarChart {
+  margin: 30px auto;
+  /* margin-left: 20px; */
+}
+#contact-6 {
+  border: white;
+  color: #fff;
+  background-image: linear-gradient(+45deg, #6441a5, #2a0845);
+}

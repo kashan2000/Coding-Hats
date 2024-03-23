@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+}
+.container {
+  flex: 6;
+}
+.link {
+  text-decoration: none;
+}
+.link:visited{
+  text-decoration: none;
+}
+.link:active{
+  text-decoration: none;
+}
